@@ -42,7 +42,7 @@ int main(void) {
 	// 실수형 변수 선언
 	float f; //4byt, 부호가 있는 실수 자료형
 	double d; // 8byte, 부호가 있는 실수 자료형
-	long double ld;, // 8byte이상 , 운영 체대에 따라 다름
+	long double ld; // 8byte이상 , 운영 체대에 따라 다름
 
 
 
