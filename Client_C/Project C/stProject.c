@@ -14,7 +14,6 @@
 int main(void)
 {
 	printf("hello wold!");
-	printf("1");
 
 	return 0;
 	//통상적으로 0을 발환하면 정상적으로 해당함수가 끝났다는것을 상위함수에 알려주기 위함
