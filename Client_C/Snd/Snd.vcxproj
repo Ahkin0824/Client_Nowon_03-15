@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4d1270a6-4c0f-44fd-9ef4-d30c7ea4f62d}</ProjectGuid>
-    <RootNamespace>ConstantExpression</RootNamespace>
+    <ProjectGuid>{46274377-1c3d-4dc8-8d63-3a555bb656c6}</ProjectGuid>
+    <RootNamespace>Snd</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ConstantExpression.c</ProjectName>
+    <ProjectName>Trd.c</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Sed.c" />
+    <ClCompile Include="소스.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

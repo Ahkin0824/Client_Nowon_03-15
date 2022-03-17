@@ -15,7 +15,12 @@
       "ProjectGuid": "4d1270a6-4c0f-44fd-9ef4-d30c7ea4f62d",
       "DisplayName": "ConstantExpression.c",
       "ColorIndex": 1
+    },
+    "46274377-1c3d-4dc8-8d63-3a555bb656c6": {
+      "ProjectGuid": "46274377-1c3d-4dc8-8d63-3a555bb656c6",
+      "DisplayName": "Trd.c",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
