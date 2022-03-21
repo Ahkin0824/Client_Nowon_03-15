@@ -2,6 +2,10 @@
 C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\Snd\Trd.c(32,6): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
 C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\Snd\Trd.c(47,34): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
 C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\Snd\Trd.c(100,23): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\Snd\Trd.c(104,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\Snd\Trd.c(104,9): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\Snd\Trd.c(104,9): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\Snd\Trd.c(104,24): warning C4013: 'strcmp'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
 C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\Snd\Trd.c(20,7): warning C4101: 'l' :참조되지 않은 지역 변수입니다.
 C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\Snd\Trd.c(21,12): warning C4101: 'll' :참조되지 않은 지역 변수입니다.
   Snd.vcxproj -> C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\Debug\Trd.c.exe
