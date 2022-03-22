@@ -1,11 +1,4 @@
 ﻿  fvnd.c
-C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\fvnd\fvnd.c(9,26): error C2143: 구문 오류: ';'이(가) '상수' 앞에 없습니다.
-C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\fvnd\fvnd.c(18,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
-C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\fvnd\fvnd.c(24,9): warning C4778: 'printf' : 서식 문자열 '%l\n'이(가) 종결되지 않았습니다.
-C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\fvnd\fvnd.c(24,17): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
-C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\fvnd\fvnd.c(24,17): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
-C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\fvnd\fvnd.c(27,26): error C2296: '%': 왼쪽 피연산자 형식으로 'double'을(를) 사용할 수 없습니다.
-C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\fvnd\fvnd.c(27,26): error C2297: '%': 오른쪽 피연산자 형식으로 'double'을(를) 사용할 수 없습니다.
-C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\fvnd\fvnd.c(29,9): warning C4778: 'printf' : 서식 문자열 '%l\n'이(가) 종결되지 않았습니다.
-C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\fvnd\fvnd.c(29,17): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
-C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\fvnd\fvnd.c(29,17): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\fvnd\fvnd.c(181,42): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\fvnd\fvnd.c(181,42): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 3개가 제공되었습니다.
+  fvnd.vcxproj -> C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\Debug\fvnd.exe

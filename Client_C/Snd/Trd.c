@@ -117,9 +117,58 @@ int main(void) {
 	//변수를 선언할 때 주의할 점
 	// 1. 키워드(예약어) 와 다른 식별자 이름.
 	// 2. 식별자 이름을 쓸 때에는 알파벳, 아라비아 숫자, 
+	int size_int = sizeof(int);
+	int size_size_int = sizeof(size_int);
+	int size_intConstant = sizeof(3);
+	printf("%d, %d, %d\n", size_int, size_size_int, size_intConstant);
+
+	//연산자의 우선순위
+	// 단항 > 산술 > 관계 > 논리 > 대입 > 콤마
+
+	// 항변환 연산자
+	//----------------------------------------------------------------------------------------------------------------------------------
+
+	//암시적 형변환
+	// 프로그래머가 따로 지정하지 않아도 컴파일이 알아서, 의해서
+	// 자동으로 처리되는 형변환을 암시적 형변환, 자동변환이라고 한다
+	int num_int = 10;
+	short num_short = 2;
+	char num_char = 4;
+	num_short + num_char;
+	// short + char 를 했지만 연산을 하기위햐ㅐ 레지;스터에 데이터가 전달될떄
+	// 정수형 연산 레지스의 단위 크기 만큼 자돟으로 자료형이 int 형으로 변환한채로 연산을 하게 됨 즉 (short + char을 하면 실제 int + in 를 수행함)
+	// 이때 short 또는 char 처럼 연산용 레지스터의 데이터 크기보다 작은 자료형이
+	// 연산용 레지트서 단위 크기의 형태로 데이터 크기가 커지는것을 승(prommotion)승격 이라고 한다
+	// 이런경우 따로 프로그래머가 int형으로 바꿔주지 않ㅈ아도 되어서 암시적 형변환 이라고 함
+	printf("%d", sizeof(num_short + num_char));
+
+	float num_float = 1.2;
+	double num_double = 12.34;
+	
+	printf("%d\n", sizeof(num_float + num_double));
+	printf("%lf\n", num_float + num_double);
 
 
+	// 명시적 형변환
+	// 수식앞에 () 를 붙이고 ()안에 반환할 데이터를 적어준다
+	int n;
+	float f;
+	f = 5 / 3;
+	printf("%f\n", f);
+	f = (float)5 / 3;
+	printf("%f\n", f);
+	f = (float)5 / (float)3;
+	printf("%f\n", f);
 
+	n = 3.5 + 7.7;
+	printf("%d", n);
+	n = (int)(3.5 + 7.7);
+
+	// 연산자에서 해볼만한거
+	// 1. 다양한 자료형끼리의 연산 (암시적 현변환 복습)
+	// 2. 여태 배운 모든 자료형에 대해서 sizeof()로 크기 확인하기
+	// 3. 1+2 : 다양한 자료형끼리 연산한것을 sizeof() 로 크기 확인하기
+	// 4. 비트연산 결과를 출력하기 전에 계산해보고 출력결과가 계산과 같은지 확인해보기
 
 
 
