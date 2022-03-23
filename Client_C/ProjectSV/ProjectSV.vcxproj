@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{63f819e7-4b3b-4df8-b1fd-eb203b0518dc}</ProjectGuid>
-    <RootNamespace>fnd</RootNamespace>
+    <ProjectGuid>{33a8ff19-5b00-44be-82e2-17ae8ae8a795}</ProjectGuid>
+    <RootNamespace>ProjectSV</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>D</ProjectName>
+    <ProjectName>G</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="fnd.c" />
+    <ClCompile Include="SV.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
