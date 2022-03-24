@@ -1,0 +1,2 @@
+﻿J.obj : error LNK2019: _sum_main 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\User\Documents\GitHub\Client_Nowon_03-15\Client_C\Debug\J.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
